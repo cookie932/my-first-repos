@@ -1,2 +1,5 @@
-print(1)
-print(2)
+users = [[1,2,3,4], [5,6,7,8]]
+
+for i in users:
+    for j in i:
+        print(j)
